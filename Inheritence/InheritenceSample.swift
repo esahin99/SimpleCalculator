@@ -1,4 +1,6 @@
 
+// In this code, car and motorcycle classes are created by inheriting from vehicle class.
+
 class Vehicle{
 
     var speed : Int
