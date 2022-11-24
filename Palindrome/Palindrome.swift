@@ -15,7 +15,7 @@
     Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 */
 
-class Solution {
+class Palindrome {
     func isPalindrome(_ x: Int) -> Bool {
         if x<0 || (x%10==0 && !(x==0)){
             return false
